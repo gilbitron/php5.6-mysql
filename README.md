@@ -4,14 +4,8 @@ This is a Docker container intended to be used to run your tests on PHP 5.6. It 
 
 Be default it assumes your app has a `run.sh` file in the root that runs your tests (e.g. `composer install` and `phpunit`).
 
-## Build
-
-```
-docker build -t {image_name} .
-```
-
 ## Run
 
 ```
-docker run -v /path/to/your/app:/app {image_name}
+docker run -v /path/to/your/app:/app gilbitron/php5.6-mysql
 ```

@@ -20,4 +20,4 @@ RUN curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/
 RUN mkdir /app
 WORKDIR /app
 
-CMD ["vendor/bin/phpunit"]
+CMD ["run.sh"]

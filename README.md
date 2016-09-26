@@ -1,8 +1,8 @@
 # Docker PHP 5.6 & MySQL
 
-This is a Docker container intended to be used to run your tests on PHP 5.6. It assumes you will be attaching your app as a volume to `/app` and has the following requirements:
+This is a Docker container intended to be used to run your tests on PHP 5.6. It assumes you will be attaching your app as a volume to `/app`.
 
-* Your app has a `run.sh` file in the root that runs `composer install` and `phpunit` (or any tests you have)
+Be default it assumes your app has a `run.sh` file in the root that runs your tests (e.g. `composer install` and `phpunit`).
 
 ## Build
 
